@@ -1,0 +1,368 @@
+/* !Animations */
+
+button:hover {
+  background: none;
+  border: 2px solid #F35F2F;
+  color: #3D3D3F;
+}
+  
+button:active {
+  color: #F35F2F;
+}
+  
+textarea:focus ,input:focus {
+  outline: 1.1px solid #F35F2F;
+}
+  
+a:hover{
+  color: #F35F2F;
+}
+  
+.blok2:hover {
+  transform: scale(103%);
+}
+  
+.blok2:hover .outside{
+  background: var(--Color-orange, rgba(255, 122, 80, 0.83));
+}
+  
+.blok2:hover .outside svg {
+  fill: rgb(255, 255, 255);
+}
+  
+.blok2:hover .arrow{
+  background: var(--Color-orange, rgba(255, 122, 80, 0.83));
+  color: #FFF;
+}
+  
+.social a:hover {
+  color: #F35F2F;
+}
+  
+.category h5:hover, .about h5:hover {
+  color: #F35F2F;
+}
+  
+.footersocial ion-icon:hover {
+  color:#F35F2F;
+}
+
+@media (max-width:1440px) {
+    h1 {
+        font-size: 48px;
+    }
+
+    .smart-left h1, .smart-left p {
+        width: 417px;
+    }
+
+    .blok3 {
+        height: 340px;
+    }
+
+    .blok3, .blok3-img, .blok3 img {
+        width: 360px;
+    }
+
+    .blok3-img {
+        height: 275px;
+    }
+
+    .team-card {
+        gap: 25px;
+        width: 210px;
+    }
+
+    .team-card .photo {
+        width: 200px;
+        height: 175px;
+    }
+
+    .photo img {
+        width: 200px;
+        top: -14px;
+        left: 0;
+      }
+
+    .cards button, .contact button {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width:1200px) {
+  h1 {
+    font-size: 46px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  .smart-left p {
+    font-size: 17px;
+  }
+
+  .nav-links a {
+    margin: 0 20px;
+  }
+
+  .blok2 {
+    width: 310px;
+    margin-top: 110px;
+  }
+
+  .blok3, .blok3-img, .blok3 img {
+    width: 392px;
+  }
+
+  .blok3 {
+    height: 367px;
+  }
+
+  .blok3-img {
+    height: 299px;
+  } 
+
+  .team-card {
+    width: 210px;
+    height: 350px;
+    justify-content: flex-start;
+    gap: 5px;
+  }
+
+  .team-card .photo {
+    width: 200px;
+  }
+
+  .photo img {
+    width: 200px;
+    left: 0;
+  }
+
+  .social {
+    margin-bottom: 15px;
+  }
+
+  .smart-right img {
+    width: 500px;
+  }
+}
+
+@media (max-width:1024px) {
+  .smart-right img {
+    width: 400px;
+  }
+
+  .smart-left h1, .smart-left p {
+    width: 390px;
+  }
+
+  .nav-links a {
+    margin: 10px;
+  }
+
+  .blok2 {
+    width: 250px;
+  }
+
+  .blok2-content, .blok2 .p2 {
+    width: 220px;
+  }
+
+  .blok h3 {
+    font-size: 28px;
+  }
+
+  .blok p {
+    font-size: 20px;
+  }
+
+  .bloks {
+    height: 270px;
+  }
+
+  .team-cards {
+    gap: 40px;
+  }
+
+  .team-card {
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .subscribe p, .logo p {
+    width: 260px;
+  }
+
+  .subscribe button, .subscribe input {
+    width: 250px;
+  }
+
+}
+
+@media (max-width:992px) {
+  .bloks3 {
+    gap: 9px;
+  }
+}
+
+@media (max-width:768px) {
+  .container {
+    width: 90%;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .smart {
+    flex-direction: column-reverse;
+    margin-top: 10px;
+    text-align: center;
+
+  }
+
+  .smart-left h1 {
+    font-size: 48px;
+  }
+
+  .smart-left p, .smart-left h1 {
+    width: 600px;
+  }
+
+  .smart-right img {
+    width: 700px;
+  }
+
+  #header {
+    margin-top: 25px;
+    margin-bottom: 0;
+  }
+
+  .burgermenu {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .burgermenu ion-icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .subscribe {
+    display: none;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  .bloks {
+    border: none;
+  }
+
+  .bloks .line {
+    display: none;
+  }
+
+  .test-images {
+    width: 720px;
+    height: 670px; 
+    margin: 0;
+  }
+
+  .forms {
+    width: 700px;
+  }
+
+  .form input {
+    width: 300px;
+  }
+
+  .form-message textarea {
+    width: 690px;
+  }
+
+  .circleone, .circletwo, .circlethree, .circlefour {
+    display: none;
+  }
+
+  .soap, .test-text {
+    display: none;
+  }
+
+  .test-lefttop {
+    left: -38px;
+  }
+
+  .test-righttop {
+    right: -10px;
+  }
+
+  .test-bottomroght {
+    right: -10px;
+    bottom: -15px;
+  }
+
+  .test-bottomleft {
+    left: -38px;
+  }
+
+  .blok3, .blok3-img, .blok3 img {
+    width: 330px;
+  }
+
+  .blok3-img {
+    height: 252px;
+  }
+
+  .blok3-text {
+    font-size: 17px;
+  }
+
+  .blok3 {
+    height: 319px;
+  }
+
+  .team-cards {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+
+  .blok2 {
+    margin-top: 100px;
+    width: 220px;
+    gap: 20px;
+  }
+
+  .blok2-content, .blok2 .p2{
+    width: 190px;
+  }
+
+  .blok2 h4 {
+    font-size: 18px;
+  }
+
+  .blok2 .p2 {
+    font-size: 13px;
+    margin: 5px 0 40px 0;
+  }
+}
+
+
+@media (max-width:576px) {
+  .smart-right img {
+    width: 520px;
+  }
+
+  .smart-left p, .smart-left h1 {
+    width: 500px;
+  }
+
+  .bloks2 {
+    flex-direction: column;
+  }
+}
